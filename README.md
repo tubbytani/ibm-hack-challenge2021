@@ -14,10 +14,7 @@ We the iterate through the tweets and apply
 Vader
 It uses a list of lexical features (e.g. word) which are labeled as positive or negative according to their semantic orientation to calculate the text sentiment. Vader sentiment returns the probability of a given input sentence to be positive, negative, and neutral.
 
-These tweets are then categorised into positve, negative and neutral using Natural Language processing (NLP).
-
-
-App is created using flask framework which runs with Gunicorn Python WSGI HTTP server which handles Post requests.
+Then an App is created using flask framework which runs with Gunicorn Python WSGI HTTP server which handles Post requests.
 The app provides an interface between the main python file and the Web UI.
 
 
