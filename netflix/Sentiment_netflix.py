@@ -13,10 +13,10 @@ from nltk.corpus import stopwords
 def final():
     stoplist = set(stopwords.words("english"))
 
-    consumer_key="uZbVgrPiK7XV8MN2cYDpm2rHj"
-    consumer_secret="Yg4ztevInPtp0WSjYTCRR419kHH6sXnjgUucOarezQCd8W5HXo" 
-    access_token="1061887134506803200-LjWIaefW7dmYaHnHjsNOh0ckLqa7R9"
-    access_token_secret="kYyOttZMv1Y8RJ3Y6hWu1TGQepi36n1C49GQaYC7HPKT3"
+    consumer_key=""
+    consumer_secret="" 
+    access_token=""
+    access_token_secret=""
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
