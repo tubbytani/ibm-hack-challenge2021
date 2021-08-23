@@ -14,7 +14,7 @@ Pagination is used a lot in Twitter API development for example in iterating thr
 - Cleaning the tweets, removing duplicates and applying Preprocessing
 - The final Tweets are iterated through our software stack, involving **VADER**
 ### VADER
-It uses a list of lexical features (e.g. word) which are labeled as positive or negative according to their semantic orientation to calculate the text sentiment. Vader sentiment returns the probability of a given input sentence to be positive, negative, and neutral.
+VADER ( Valence Aware Dictionary for Sentiment Reasoning) is a model used for text sentiment analysis that is sensitive to both polarity (positive/negative) and intensity of emotion. It uses a list of lexical features (e.g. word) which are labeled as positive or negative according to their semantic orientation to calculate the text sentiment. Vader sentiment returns the probability of a given input sentence to be positive, negative, and neutral.
 
 Then an App is created using **Flask framework (by Python)** which runs with Gunicorn Python WSGI HTTP server which handles POST requests.
 The app provides an interface layer between the main python file and the React UI.
