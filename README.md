@@ -4,7 +4,7 @@ The result also takes in consideration of the features which are given higher pr
 The various steps involved were:
 -  Collection of datasets: Various datasets were collected for each OTT platform. The major reference for the data was Kaggle
 -  We initialise a Watson Notebook for the performing operations pertaining to data cleaning and eventual analysis of OTT platforms.
--  After data cleaning, we analyzed the data and performed Exploratory data analysis to get an idea of different features.
+-  After data cleaning, we analyzed the data and performed EDA (Exploratory Data Analysis) to get an idea of different features.
 -  We needed few common measures of comparison like Language, Age Rating, IMDb and genre, so we resorted to converting them upto a common scale to be compared accordingly
 -  These features were finally used to formulate our Recommender algorithm.
 -  The output of recommender is then sent to the UI with the help of Flask framework deployed on IBM cloud.
