@@ -10,6 +10,9 @@ import sys
 from textblob import TextBlob
 from nltk.corpus import stopwords
 def final():
+    '''
+    This final function is called in the flask app to process the requests.
+    '''
     stoplist = set(stopwords.words("english"))
     consumer_key = ""
     consumer_secret = ""
