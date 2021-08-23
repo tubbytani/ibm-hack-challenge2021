@@ -1,4 +1,3 @@
-from sklearn.feature_extraction.text import CountVectorizer
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import string
 import re
