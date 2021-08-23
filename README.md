@@ -6,9 +6,9 @@ The various steps involved were:
 -  The main python file is created using Exploratory data analysis: After segregation of certain data new CSV's were created to store the data
 -  
 # Sentiment Analysis
-OTT Review
+1. OTT Review
 After successfully scraping different opinions and reviews of people on the respective OTTs being analyzed in this project, we performed sentiment analysis on the data we had. We resorted to many preprocessing techniques at the core of which was **VADER** Model. 
-LIVE @Twitter 
+2. LIVE @Twitter 
 Live tweets are fetched from twitter using **Tweepy** which is an open source Python package that provides a convenient way to access the Twitter API with Python.
 After providing necessary credentials to authenticate our requests tweets are fetched from twitter. <br>
 Pagination is used a lot in Twitter API development for example in iterating through timelines, user lists, direct messages, etc. In order to perform pagination and to make the process easier we are using **Tweepy's Cursor object**. <br>
