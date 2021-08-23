@@ -12,7 +12,7 @@ After successfully scraping different opinions and reviews of people on the resp
 Live tweets are fetched from twitter using **Tweepy** which is an open source Python package that provides a convenient way to access the Twitter API with Python.
 After providing necessary credentials to authenticate our requests tweets are fetched from twitter. <br>
 Pagination is used a lot in Twitter API development for example in iterating through timelines, user lists, direct messages, etc. In order to perform pagination and to make the process easier we are using **Tweepy's Cursor object**. <br>
-## Flow
+- Flow
 - Request to Fetch 100 real-time tweets based on specially OTT-specific keywords
 - Cleaning the tweets, removing duplicates and applying Preprocessing
 - The final Tweets are iterated through our software stack, involving **VADER**
