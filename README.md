@@ -22,7 +22,7 @@ Pagination is used a lot in Twitter API development for example in iterating thr
 ## About VADER
 VADER ( Valence Aware Dictionary for Sentiment Reasoning) is a model used for text sentiment analysis that is sensitive to both polarity (positive/negative) and intensity of emotion. It uses a list of lexical features (e.g. word) which are labeled as positive or negative according to their semantic orientation to calculate the text sentiment. Vader sentiment returns the probability of a given input sentence to be positive, negative, and neutral. We chose this algorithm because it is well optimized for social media data and can yield fine results when used with unstructured data from Twitter.
 
-## APP CREATION
+## APP Creation
 The Apps are created using **Flask framework (by Python)** which runs with **Gunicorn Python WSGI HTTP server which handles POST requests**
 The app provides an interface layer between the main python file and the React UI.
 Various parts of the app:
