@@ -3,7 +3,7 @@ A Flask based REST Api is created which responds with a recommendation of an OTT
 The result also takes in consideration of the features which are given higher priority by the user.
 The various steps involved were:
 -  Collection of datasets: Various datasets were collected for each OTT platform. The major reference for the data was Kaggle
--  We initialise a Watson Notebook for the performing operations pertaining to data cleaning and eventual analysis of OTT platforms.
+-  We initialise a [Watson Studio Notebook](https://eu-gb.dataplatform.cloud.ibm.com/analytics/notebooks/v2/d7f89838-67bc-421b-bf72-ff9c33a5d4eb/view?access_token=05d7c8d20083ba2d73e4cd1d3cff4ef57e7b104bfb679014ecacbe1a0a761992)  for the performing operations pertaining to data cleaning and eventual analysis of OTT platforms.
 -  After data cleaning, we analyzed the data and performed EDA (Exploratory Data Analysis) to get an idea of different features.
 -  We needed few common measures of comparison like Language, Age Rating, IMDb and genre, so we resorted to converting them upto a common scale to be compared accordingly
 -  These features were finally used to formulate our Recommender algorithm.
