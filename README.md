@@ -10,7 +10,8 @@ The various steps involved were:
 -  The output of recommender is then sent to the UI with the help of Flask framework deployed on IBM cloud.
 # Sentiment Analysis
 1. **OTT Review** <br>
-After successfully scraping different opinions and reviews of people on the respective OTTs being analyzed in this project, we performed sentiment analysis on the data we had. We resorted to many preprocessing techniques at the core of which was **VADER** Model. Final sentiment data was sent to the React UI dashboard to be shown to the user as interpretable data.
+After successfully scraping different opinions and reviews of people on the respective OTTs being analyzed in this project, we performed sentiment analysis on the data we had. We resorted to many preprocessing techniques at the core of which was **VADER** Model. Furthermore, we calculated the frequency of Keywords for building a WordCloud. Final metadata was sent to the React UI dashboard to be shown to the user as interpretable data. <br>
+[Check out the Watson Notebook!](https://eu-gb.dataplatform.cloud.ibm.com/analytics/notebooks/v2/a7496980-1878-4e14-aea4-ff1261c03905/view?access_token=775c4c63558a50c5db29d8acda6e4b12a49b683f1c1dde67fcad1c56f793c7d9)
 2. **LIVE @Twitter** <br> 
 Live tweets are fetched from twitter using **Tweepy** which is an open source Python package that provides a convenient way to access the Twitter API with Python.
 After providing necessary credentials to authenticate our requests tweets are fetched from twitter. <br>
