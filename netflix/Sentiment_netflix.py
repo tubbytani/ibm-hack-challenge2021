@@ -112,8 +112,6 @@ def final():
         tweets.loc[index, 'neg'] = neg
         tweets.loc[index, 'neu'] = neu
         tweets.loc[index, 'pos'] = pos
-        # tweets.loc[index, 'compound'] = comp
-        #tweets.to_csv('sentimentn.csv')
 
 
     tweets_negative = tweets[tweets["sentiment"] == "negative"]
